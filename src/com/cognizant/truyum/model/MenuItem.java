@@ -86,10 +86,11 @@ public class MenuItem {
 
     @Override
     public String toString() {
-        SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
-       
-        return String.format ("%-10s%-20s%-20s%-20s%-20s%-20s%s\n",id,name,price,active==true?"Yes":"No",sdf.format(dateOfLaunch),category,freeDelivery==true?"Yes":"No");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+        return String.format("%-10s%-20s%-20s%-20s%-20s%-20s%s", id, name, price,
+                active == true ? "Yes" : "No", sdf.format(dateOfLaunch), category,
+                freeDelivery == true ? "Yes" : "No");
     }
-    
 
 }
