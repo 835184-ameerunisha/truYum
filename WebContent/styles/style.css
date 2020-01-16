@@ -1,0 +1,64 @@
+/*text body for top and bottom padding*/
+body {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+/*Header formatting*/
+.header {
+    top: 0;
+    font-size: 18px;
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    background: #395596;
+    padding: 10px 0;
+    color: #fff;
+}
+/*navigation color*/
+.header a {
+    color: white;
+}
+/*header position*/
+.header {
+    margin-right: 85%;
+}
+/*position and margins for navigation items*/
+.nav {
+    top: 1%;
+    margin-left: 92%;
+    position: fixed;
+    background: #395596;
+    font-size: 14px;
+    color: #fff;
+}
+/*link color*/
+a {
+    color: black;
+}
+/*editing*/
+.edit {
+    margin-left: 200px;
+}
+/*result message editing*/
+.man {
+    margin-left: 20px;
+}
+/*menu link color*/
+.menu-item-list {
+    color: #395596;
+}
+/*footer formatting*/
+.footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    background: #b6bacf;
+    padding: 10px 0;
+    color: #04081c;
+}
+/*body text editing*/
+.container {
+    width: 100%;
+    margin: 20 auto;
+}
