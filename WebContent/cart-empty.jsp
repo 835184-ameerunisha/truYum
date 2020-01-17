@@ -5,7 +5,6 @@
 <title>cart-empty</title>
 <link rel="icon" href="images\truyum-logo-light.png" />
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
-<link rel="stylesheet" type="text/css" href="styles\style.css" />
 </head>
 <body>
     <div class="header">
@@ -15,6 +14,7 @@
         </div>
         <div class="nav">
             <a href="ShowMenuItemListCustomer">Menu</a>
+            <a href="ShowCart">Cart</a>
 
             </nav>
         </div>
@@ -25,7 +25,7 @@
         <h1>Cart</h1>
         <p id="cart-empty">
             No items in cart.Use 'Add to Cart' option in <a href="ShowMenuItemListCustomer"
-                id="menu-item" class=".menu-item-list">Menu Item List.</a>
+                id="menu-item">Menu Item List.</a>
         </p>
 
         <div class="footer">

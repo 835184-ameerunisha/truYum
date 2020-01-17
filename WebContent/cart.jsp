@@ -16,6 +16,7 @@
         </div>
         <div class="nav">
             <a href="ShowMenuItemListCustomer">Menu</a>
+            <a href="ShowCart">Cart</a>
 
             </nav>
         </div>
@@ -26,7 +27,7 @@
         <c:set var="cart" value="${cart}"></c:set>
         <h1>Cart</h1>
         <c:if test="${removeCartItemStatus==true }">
-            <h4 style="color: #0b8038" id="remove-cart1" class="man">Item Removed from Cart
+            <h4 style="color: #4339fa" id="remove-cart1" class="man">Item Removed from Cart
                 Successfully</h4>
         </c:if>
         <table id="table2">

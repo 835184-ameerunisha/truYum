@@ -99,7 +99,7 @@
 
                         </tr>
                         <tr>
-                            <td><input type="submit" id="button" value="Save" /></td>
+                            <td><input type="submit" style="background-color: #1a2fed;border:none" id="button" value="Save" /></td>
                         </tr>
                     </table>
                     <div class="footer">
