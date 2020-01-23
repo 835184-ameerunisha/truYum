@@ -90,8 +90,8 @@
                                         checked="checked">Free Delivery</td>
                                 </c:when>
                                 <c:otherwise>
-                                    <td><input type="checkbox" name="freeDelivery" value="No"
-                                        checked="checked">Free Delivery</td>
+                                    <td><input type="checkbox" name="freeDelivery" value="No">Free
+                                        Delivery</td>
                                 </c:otherwise>
 
                             </c:choose>
@@ -99,7 +99,9 @@
 
                         </tr>
                         <tr>
-                            <td><input type="submit" style="background-color: #1a2fed;border:none" id="button" value="Save" /></td>
+                            <td><input type="submit"
+                                style="background-color: #0716a3; color: white; width: 120px; height: 30px; border: none;"
+                                value="Save" name="submit"></td>
                         </tr>
                     </table>
                     <div class="footer">
